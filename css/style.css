@@ -104,6 +104,11 @@ form button[type="submit"] {
     letter-spacing: 5.4px;
 }
 
+
+.whyKRM {
+    padding: 65px 0;
+}
+
 .subTitle {
     padding-top: 25px;
 }
@@ -565,7 +570,7 @@ form button[type="submit"] {
 }
 
 .helpline p {
-    font-family:var(--secondary-font-family);
+    font-family: var(--secondary-font-family);
     font-size: 16px;
 }
 
@@ -573,7 +578,7 @@ form button[type="submit"] {
     font-weight: 700;
 }
 
-.helpline p a{
+.helpline p a {
     color: #4E4E4E;
     text-decoration: none;
 }
@@ -582,12 +587,15 @@ form button[type="submit"] {
     text-decoration: none;
     color: #4E4E4E;
 }
+
 .recenthighlights {
     padding-top: 65px;
 }
+
 .grid {
     cursor: pointer;
 }
+
 .recenthighlights .subTitleText {
     margin-bottom: 100px;
 }
@@ -596,7 +604,7 @@ form button[type="submit"] {
     position: absolute;
     width: 100%;
     height: 100%;
-    color:var(--secondary-text-color);
+    color: var(--secondary-text-color);
     left: 0;
     top: 0;
     background-color: #ec3237bf;
@@ -611,6 +619,7 @@ form button[type="submit"] {
     font-family: var(--secondary-font-family);
     padding: 45px;
 }
+
 .animateText p {
     position: relative;
     padding-bottom: 45px;
@@ -626,7 +635,7 @@ form button[type="submit"] {
     left: 0;
 }
 
-.grid:hover .animateText{
+.grid:hover .animateText {
     opacity: 1;
     visibility: visible;
     transform: scale(1);
@@ -748,9 +757,126 @@ form button[type="submit"] {
         text-align: center;
         margin-bottom: 20px;
     }
-}
 
-.whyKRM {
-    padding-top: 65px;
-    padding-bottom: 65px;
+    .layerOverlap {
+        position: relative;
+        transform: none;
+        min-width: auto;
+    }
+
+    .label {
+        font-size: 16px;
+    }
+
+    .sectionTextRight,
+    .sectionTextLeft,
+    .faculty .sectionTextRight {
+        padding: 35px 15px;
+    }
+
+    .sectionText:after {
+        font-size: 70px;
+        left: 3%;
+    }
+
+    .two:after {
+        top: -13%;
+    }
+
+    .three.layerOverlap {
+        transform: none;
+    }
+
+    .three.layerOverlap {
+        transform: none;
+    }
+
+    .studentCount {
+        font-size: 50px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .studentCount span {
+        display: block;
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .three:after {
+        top: -53px;
+    }
+
+    .four:after {
+        top: -13%;
+    }
+
+    .accreditation {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .learningText {
+        position: relative;
+        transform: none;
+    }
+
+    .internationalLogo img:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .learningText h4 br {
+        display: none;
+    }
+    .spsWrapper {
+        padding: 15px 15px;
+    }
+
+    .spsWrapper .innerWrap:not(:last-child)
+    {
+        margin-bottom: 15px;
+    }
+
+    .spsWrapper .innerWrap .package span.numberText {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+    .slide {
+        padding: 14px;
+        min-height: 158px;
+    }
+    .joinKRM, .alumni, .whyKRM {
+        padding: 35px 0;
+    }
+    .joinKRM {
+        margin-top: 0;
+    }
+    .recenthighlights {
+        padding-top: 35px;
+    }
+    .recenthighlights .subTitleText {
+        margin-bottom: 25px;
+    }
+    .alumni {
+        background: none;
+    }
+    .alumni .subTitleText {
+        text-align: center;
+    }
+    #alumniDesImg .owl-item img {
+        width: 170px;
+    }
+    .alumniSection {
+        background-size: 78px;
+        padding-top: 20px;
+        padding-bottom: 48px;
+    }
+    .alumniSection::before, .alumniSection::after {
+        height: 44px;
+    }
+    .descriptionWrapper .des {
+        padding-top: 15px;
+    }
 }
