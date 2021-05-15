@@ -879,4 +879,14 @@ form button[type="submit"] {
     .descriptionWrapper .des {
         padding-top: 15px;
     }
+    .animateText {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .animateText p {
+        padding-bottom: 6px;
+    }
+    .date {
+        margin-bottom: 6px;
+    }
 }
