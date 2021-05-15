@@ -561,6 +561,7 @@ form button[type="submit"] {
     padding: 65px 0;
     margin-top: 65px;
     border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
 }
 
 .helpline p {
@@ -580,6 +581,64 @@ form button[type="submit"] {
 .helpline p a:hover {
     text-decoration: none;
     color: #4E4E4E;
+}
+.recenthighlights {
+    padding-top: 65px;
+}
+.grid {
+    cursor: pointer;
+}
+.recenthighlights .subTitleText {
+    margin-bottom: 100px;
+}
+
+.animateText {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:var(--secondary-text-color);
+    left: 0;
+    top: 0;
+    background-color: #ec3237bf;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s all;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    font-family: var(--secondary-font-family);
+    padding: 45px;
+}
+.animateText p {
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.animateText p:after {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 2px;
+    background-color: var(--secondary-background-color);
+    bottom: 0;
+    left: 0;
+}
+
+.grid:hover .animateText{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.2s all;
+}
+
+.date {
+    margin-bottom: 45px;
 }
 
 @media (min-width:769px) {
