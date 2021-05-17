@@ -900,3 +900,7 @@ form button[type="submit"] {
         margin-bottom: 6px;
     }
 }
+
+.indslide img {
+    width: 120px !important;
+}
