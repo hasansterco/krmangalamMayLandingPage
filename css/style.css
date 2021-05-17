@@ -905,11 +905,11 @@ form button[type="submit"] {
     width: 120px !important;
 }
 
-.sectionTextRight.sectionText .studentCount {
+.faculty .sectionTextRight.sectionText .studentCount {
     font-size: 35px;
     padding-top: 20px !important;
 }
 
-.sectionTextRight.sectionText .studentCount .indslide img{
+.faculty .sectionTextRight.sectionText .studentCount .indslide img{
     width: 72px !important;
 }
