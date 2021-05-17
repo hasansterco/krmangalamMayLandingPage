@@ -19,11 +19,21 @@ html {
 }
 
 .hero-section {
-    background-image: url('../images/headerImage.png');
+    /* background-image: url('../images/headerImage.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
     z-index: 1;
+}
+
+.heroSlider {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 111vh;
 }
 
 .overlay {
@@ -34,7 +44,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    opacity: 0.9;
+    opacity: 0.6;
     z-index: -1;
 }
 
@@ -666,7 +676,7 @@ form button[type="submit"] {
     }
 
     .studentCount {
-        width: 50%;
+        max-width: 250px;
     }
 }
 

@@ -18,6 +18,16 @@
 <body>
     <!--Header-->
     <section class="hero-section position-relative w-100 px-md-5 px-3">
+        <div class="heroSlider">
+            <div class="owl-carousel" id="heroSlider">
+                <div class="hSlide">
+                    <img src="images/hSlide-one.JPG" alt="hSlide-one">
+                </div>
+                <div class="hSlide">
+                    <img src="images/hSlide-one.JPG" alt="hSlide-two">
+                </div>
+            </div>
+        </div>
         <div class="overlay"></div>
         <header>
             <img src="images/logo.png" alt="K.R. Mangalam" class="img-fluid">
@@ -136,9 +146,20 @@
             <div class="col-lg-7 p-0">
                 <div class="sectionTextRight sectionText two position-relative">
                     <span class="label">RESEARCH & INNOVATION</span>
-                    <h3 class="subTitleText">An impeccable blend of knowledge and technology</h3>
+                    <h3 class="subTitleText">Industy tie-ups and Exposure</h3>
                     <div class="studentCount">
-                        18K <span>Students</span>
+                        <!-- 18K <span>Students</span> -->
+                        <div class="owl-carousel customSlider">
+                            <div class="indslide">
+                                <img src="images/siemens.png" alt="siemens">
+                            </div>
+                            <div class="indslide">
+                                <img src="images/siemens.png" alt="siemens">
+                            </div>
+                            <div class="indslide">
+                                <img src="images/siemens.png" alt="siemens">
+                            </div>
+                        </div>
                     </div>
                     <a href="#" class="actionBTN">Learn More</a>
                 </div>
@@ -154,8 +175,19 @@
                     <span class="label">LIFE @ KRM</span>
                     <h3 class="subTitleText">Environmentally conscious and Safe Campus</h3>
                     <div class="studentCount">
-                        26 <span>Area Campus</span>
+                        <div class="owl-carousel customSlider">
+                            <div class="indslide pt-3">
+                                26 <span class="pl-0">Area Campus</span>
+                            </div>
+                            <div class="indslide pt-3">
+                                3K <span class="pl-0">Students</span>
+                            </div>
+                            <div class="indslide pt-3">
+                                12 <span class="pl-0">Area Campus</span>
+                            </div>
+                        </div>
                     </div>
+                    
                     <a href="#" class="actionBTN">Learn More</a>
                 </div>
             </div>
@@ -183,7 +215,17 @@
                     <span class="label">FACULTY</span>
                     <h3 class="subTitleText">Distinguished Mentoring Minds/ Faculty/ Academicians</h3>
                     <div class="studentCount">
-                        120 <span>Faculty</span>
+                        <div class="owl-carousel customSlider">
+                            <div class="indslide pt-3">
+                                120 <span class="pl-0">Faculty</span>
+                            </div>
+                            <div class="indslide pt-3">
+                                3K <span class="pl-0">Students</span>
+                            </div>
+                            <div class="indslide pt-3">
+                                12 <span class="pl-0">Area Campus</span>
+                            </div>
+                        </div>
                     </div>
                     <a href="#" class="actionBTN">Learn More</a>
                 </div>
@@ -504,6 +546,23 @@
     <script src="js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function () {
+            $("#heroSlider").owlCarousel({
+                items: 1,
+                loop: true,
+                autoPlaySpeed: 300,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                dots: false
+            });
+            $(".customSlider").owlCarousel({
+                items: 1,
+                autoplay: true,
+                loop: true,
+                ltr: true,
+                autoPlaySpeed: 300,
+                autoplayTimeout:2000,
+                dots: false
+            });
             $("#rankingSlider").owlCarousel({
                 loop: true,
                 ltr: true,
