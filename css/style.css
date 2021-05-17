@@ -904,3 +904,12 @@ form button[type="submit"] {
 .indslide img {
     width: 120px !important;
 }
+
+.sectionTextRight.sectionText .studentCount {
+    font-size: 35px;
+    padding-top: 20px !important;
+}
+
+.sectionTextRight.sectionText .studentCount .indslide img{
+    width: 72px !important;
+}
